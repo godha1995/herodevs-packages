@@ -84,6 +84,7 @@ export class LazyAFComponent implements AfterViewInit, OnChanges, OnDestroy {
   ) {}
 
   ngAfterViewInit() {
+    console.log("***********************");
     this.afterInitBS.next(true);
   }
 
